@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(245, 40, 74);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.interface{
+    height: 370px;
+    width: 291px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 19px;
+}
+
+form{
+   margin: 1rem 0 1rem 0;
+}
+form button,select,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+   padding: 0.2rem;
+    height: 2rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.dropdown i{
+    font-size:1.5rem ;
+    margin-top: 1.1rem;
+}
+.selectContainer img{
+ max-width: 1.8rem;
+}
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 9px;
+}
+.selectContainer select{
+    font-size: .9rem;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+.from p{
+    margin-left: .6rem;
+}
+.to p{
+    margin-left: .6rem;
+}
+.msg{
+    margin: 2rem 0 1rem 0;
+}
+form button{
+    margin: 1rem 0 1rem 0;
+    padding: 0.2rem;
+    height: 2rem;
+    font-size: 14px;
+    background-color: rgb(245, 40, 74) ;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(231, 9, 46) ;
+}
+.currency {
+   font-weight: 750;
+   font-size: 20px;
+   position: relative;
+   left:20%;
+  
+}
+.msg{
+    margin-left: 2.7rem;
+}
+
